@@ -1,0 +1,344 @@
+span {
+  color: rgb(2, 255, 2);
+}
+
+.custom-navbar {
+  background-color: rgb(87, 87, 87);
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.carousel-item {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-item h1 {
+  font-weight: bolder;
+  color: rgb(2, 255, 2);
+}
+
+.carousel-item h2 {
+  font-weight: bolder;
+  color: rgb(0, 255, 234);
+}
+
+.About h1 {
+  position: relative;
+  top: 2rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  color: rgb(0, 102, 255);
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2em;
+}
+
+.card-title {
+  color: #7ebcff;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #333;
+}
+
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card1 {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 15rem;
+  text-align: center;
+}
+
+.card2 {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-right: 15rem;
+  text-align: center;
+}
+
+.About h1 {
+  margin-bottom: 1.5em;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-left: 15rem;
+  text-align: center;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-right: 15rem;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card:hover,
+.card1:hover,
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2em;
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #333;
+}
+
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.About {
+  background-color: rgb(237, 255, 255);
+}
+
+.card1 img {
+  position: relative;
+  top: 20px;
+}
+
+.card2 img {
+  position: relative;
+  top: 20px;
+}
+
+#articles h1 {
+  position: relative;
+  top: 2rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 255);
+  text-align: center;
+}
+
+#articles {
+  background-color: rgb(226, 219, 255);
+}
+
+#contact {
+  background-color: rgb(226, 219, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .card1,
+  .card2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .d-flex {
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+  }
+}
+
+.iframe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.iframe-container iframe {
+  width: 100%;
+  height: 500px;
+}
+
+@media (min-width: 768px) {
+  .iframe-container iframe {
+    width: 48%;
+  }
+}
+
+#routes {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#routeForm {
+  margin-bottom: 2rem;
+}
+
+#routeInfo {
+  background-color: #e9ecef;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#routeInfo .card {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#routeInfo .card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#routeInfo .card-body p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#routeInfo .card-footer {
+  text-align: right;
+}
+
+#okButton1,
+#okButton2 {
+  margin-top: 1rem;
+}
+
+#routeInfo .card-footer {
+  text-align: center;
+}
+
+#carbonCredit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carbon-credit-card {
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.carbon-credit-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.carbon-credit-card-body {
+  padding: 2em;
+}
+
+.carbon-credit-card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.carbon-credit-card-text {
+  font-size: 1.2em;
+  color: #333;
+}
+
+#carbonCredit h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #007bff;
+  padding: 20px 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#carbonCredit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#creditValue {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
